@@ -4,11 +4,12 @@ import './index.css'
 import Home from './Home.tsx'
 
 import TopTen from './jeux/TopTen.tsx'
-import Treeman from './jeux/Treeman.tsx'
+import DiceCube from './jeux/Treeman.tsx'
+import DiceGame from './jeux/DiceGame.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Treeman />
+    <DiceGame />
     {/* <TopTen /> */}
     {/* <Home /> */}
   </StrictMode>,

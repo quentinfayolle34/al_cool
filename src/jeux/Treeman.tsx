@@ -50,8 +50,8 @@ function DiceCube() {
     setRotation({ x, y })
   }
 
-  const cubeSize = 200
-  const borderRadius = 16 // coins arrondis
+  const cubeSize = 150
+  const borderRadius = 5 // coins arrondis
 
   return (
     <Box

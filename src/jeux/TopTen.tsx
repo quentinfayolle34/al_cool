@@ -10,13 +10,11 @@ function TopTen() {
     const randomNum = Math.floor(Math.random() * 10) + 1
     setFlipped(true)
 
-    setTimeout(() => {
-      setNumber(randomNum)
-    }, 300)
+    setNumber(randomNum)
 
     setTimeout(() => {
       setFlipped(false)
-    }, 600)
+    }, 800)
   }
 
   return (
