@@ -9,8 +9,8 @@ import DiceGame from './jeux/DiceGame.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <DiceGame />
-    {/* <TopTen /> */}
+    {/* <DiceGame /> */}
+    <TopTen />
     {/* <Home /> */}
   </StrictMode>,
 )
