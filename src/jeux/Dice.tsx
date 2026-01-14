@@ -1,5 +1,11 @@
 import { Box } from '@mui/material'
 import { useEffect, useState } from 'react'
+import dice1 from '../assets/dice1.png';
+import dice2 from '../assets/dice2.png';
+import dice3 from '../assets/dice3.png';
+import dice4 from '../assets/dice4.png';
+import dice5 from '../assets/dice5.png';
+import dice6 from '../assets/dice6.png';
 
 type DiceProps = {
   rollTrigger: number
@@ -59,42 +65,42 @@ function Dice({ rollTrigger, size = 100 }: DiceProps) {
       >
         <Box sx={{ ...faceStyle, transform: `translateZ(${size / 2}px)` }}>
             <img
-                src={'../../src/assets/Dice1.png'}
+                src={dice1}
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
             />
         </Box>
         <Box sx={{ ...faceStyle, transform: `rotateY(180deg) translateZ(${size / 2}px)` }}>
             <img
-                src={'../../src/assets/Dice6.png'}
+                src={dice2}
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
             />
         </Box>
         <Box sx={{ ...faceStyle, transform: `rotateY(90deg) translateZ(${size / 2}px)` }}>
             <img
-                src={'../../src/assets/Dice3.png'}
+                src={dice3}
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
             />
         </Box>
         <Box sx={{ ...faceStyle, transform: `rotateY(-90deg) translateZ(${size / 2}px)` }}>
             <img
-                src={'../../src/assets/Dice4.png'}
+                src={dice4}
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
             />
         </Box>
         <Box sx={{ ...faceStyle, transform: `rotateX(90deg) translateZ(${size / 2}px)` }}>
             <img
-                src={'../../src/assets/Dice5.png'}
+                src={dice5}
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
             />
         </Box>
         <Box sx={{ ...faceStyle, transform: `rotateX(-90deg) translateZ(${size / 2}px)` }}>
             <img
-                src={'../../src/assets/Dice2.png'}
+                src={dice6}
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
             />
